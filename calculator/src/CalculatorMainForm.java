@@ -169,7 +169,7 @@ public class CalculatorMainForm {
             public void actionPerformed(ActionEvent e) {
                 var number = Double.parseDouble(calculatorTextField.getText());
 
-                calculatorTextField.setText(Double.toString(calculatorService.Sum(number)));
+                calculatorTextField.setText(Double.toString(calculatorService.calculate(number, new SumOperation())));
 
                 isOperationClicked = true;
             }
@@ -179,7 +179,7 @@ public class CalculatorMainForm {
             public void actionPerformed(ActionEvent e) {
                 var number = Double.parseDouble(calculatorTextField.getText());
 
-                calculatorTextField.setText(Double.toString(calculatorService.Subtract(number)));
+                calculatorTextField.setText(Double.toString(calculatorService.calculate(number, new SubtractOperation())));
 
                 isOperationClicked = true;
             }
@@ -189,7 +189,7 @@ public class CalculatorMainForm {
             public void actionPerformed(ActionEvent e) {
                 var number = Double.parseDouble(calculatorTextField.getText());
 
-                calculatorTextField.setText(Double.toString(calculatorService.Multiply(number)));
+                calculatorTextField.setText(Double.toString(calculatorService.calculate(number, new MultiplyOperation())));
 
                 isOperationClicked = true;
             }
@@ -199,7 +199,7 @@ public class CalculatorMainForm {
             public void actionPerformed(ActionEvent e) {
                 var number = Double.parseDouble(calculatorTextField.getText());
 
-                calculatorTextField.setText(Double.toString(calculatorService.Divide(number)));
+                calculatorTextField.setText(Double.toString(calculatorService.calculate(number, new DivideOperation())));
 
                 isOperationClicked = true;
             }
@@ -209,7 +209,7 @@ public class CalculatorMainForm {
             public void actionPerformed(ActionEvent e) {
                 var number = Double.parseDouble(calculatorTextField.getText());
 
-                calculatorTextField.setText(Double.toString(calculatorService.Equality(number)));
+                calculatorTextField.setText(Double.toString(calculatorService.calculate(number)));
 
                 isOperationClicked = true;
             }

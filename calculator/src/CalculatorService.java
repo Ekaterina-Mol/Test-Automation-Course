@@ -1,92 +1,28 @@
 public class CalculatorService {
     private double operand;
-    private OperationTypes operationType;
     private boolean isOperandFilled;
 
+    private ICalculatorOperation currentOperation;
 
-    public double Sum(double number){
-        if (isOperandFilled){
-            operand = Calculate(number);
-        }
-        else{
-            operand = number;
-            isOperandFilled = true;
-        }
-        operationType = OperationTypes.Sum;
-
-        return operand;
-    }
-    public double Multiply(double number){
-        if (isOperandFilled){
-            operand = Calculate(number);
-        }
-        else{
-            operand = number;
-            isOperandFilled = true;
-        }
-        operationType = OperationTypes.Multiply;
-
-        return operand;
+    public double calculate(double number){
+        return this.calculate(number, null);
     }
 
-    public double Divide(double number){
+    public double calculate(double number, ICalculatorOperation operation) {
         if (isOperandFilled){
-            operand = Calculate(number);
-        }
-        else{
-            operand = number;
-            isOperandFilled = true;
-        }
-        operationType = OperationTypes.Divide;
-
-        return operand;
-    }
-
-    public double Subtract(double number){
-        if (isOperandFilled){
-            operand = Calculate(number);
-        }
-        else{
-            operand = number;
-            isOperandFilled = true;
-        }
-        operationType = OperationTypes.Subtract;
-
-        return operand;
-    }
-
-    public double Equality(double number){
-        if (isOperandFilled){
-            operand = Calculate(number);
+            operand = this.currentOperation.calculate(this.operand, number);
             isOperandFilled = false;
         }
         else {
             operand = number;
         }
 
+        if (operation != null){
+            this.currentOperation = operation;
+            isOperandFilled = true;
+        }
+
         return operand;
     }
 
-    private double Calculate(double number){
-        double result = 0;
-
-        switch (operationType) {
-            case Multiply:
-                result = operand * number;
-                break;
-
-            case Sum:
-                result = operand + number;
-                break;
-
-            case Subtract:
-                result = operand - number;
-                break;
-
-            case Divide:
-                result = operand / number;
-        }
-
-        return result;
-    }
 }
