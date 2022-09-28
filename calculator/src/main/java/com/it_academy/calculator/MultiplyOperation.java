@@ -1,3 +1,5 @@
+package com.it_academy.calculator;
+
 public class MultiplyOperation implements ICalculatorOperation {
     @Override
     public double calculate(double firstOperand, double secondOperand) {
