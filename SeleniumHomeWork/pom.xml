@@ -17,6 +17,7 @@
         <log4j.version>2.17.1</log4j.version>
         <!--Drivers-->
         <chrome.driver.path>${project.basedir}/src/test/resources/chromedriver.exe</chrome.driver.path>
+        <opera.driver.path>${project.basedir}/src/test/resources/operadriver.exe</opera.driver.path>
     </properties>
 
     <build>
@@ -28,6 +29,7 @@
                 <configuration>
                     <systemPropertyVariables>
                         <webdriver.chrome.driver>${chrome.driver.path}</webdriver.chrome.driver>
+                        <webdriver.opera.driver>${opera.driver.path}</webdriver.opera.driver>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>
@@ -61,6 +63,36 @@
             <artifactId>assertj-core</artifactId>
             <version>3.22.0</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.12.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-collections4</artifactId>
+            <version>4.4</version>
+        </dependency>
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>4.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>2.13.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.2.0</version>
         </dependency>
     </dependencies>
 

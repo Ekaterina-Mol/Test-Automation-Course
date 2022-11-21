@@ -29,39 +29,80 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Documents/Git/Test-Automation-Course/SeleniumHomeWork/src/main/java/org/it_academy/onliner/pageobject&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Admin/Documents/Git/Test-Automation-Course/SeleniumHomeWork/src/test/resources"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "XML"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\Git\Test-Automation-Course\SeleniumHomeWork\src\test\resources" />
+      <recent name="C:\Users\Admin\Documents\Git\Test-Automation-Course\SeleniumHomeWork\src\main\resources" />
+      <recent name="C:\Users\Admin\Documents\Git\Test-Automation-Course\SeleniumHomeWork\src\main\java\org\it_academy\onliner\rest_api" />
+      <recent name="C:\Users\Admin\Documents\Git\Test-Automation-Course\SeleniumHomeWork\src\test\java" />
       <recent name="C:\Users\Admin\Documents\Git\Test-Automation-Course\SeleniumHomeWork\src\main\java\org\it_academy\onliner\pageobject" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\Git\Test-Automation-Course\SeleniumHomeWork\src\test\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.it_academy.selenium.onliner.remote" />
+      <recent name="org.it_academy.selenium.framework" />
+      <recent name="it_academy.selenium.sushivesla" />
+      <recent name="org.it_academy.onliner.rest_api.model" />
       <recent name="org.it_academy.onliner.framework" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SeleniumTest">
-    <configuration name="SeleniumTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/Admin/Documents/Git/Test-Automation-Course/SeleniumHomeWork/src/test/resources/selenium-parallel-test-suit-local.xml">
+    <configuration name="C:/Users/Admin/Documents/Git/Test-Automation-Course/SeleniumHomeWork/src/test/resources/selenium-parallel-test-suit-local.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumHomeWork" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/selenium-parallel-test-suit-local.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTest.Test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Admin/Documents/Git/Test-Automation-Course/SeleniumHomeWork/src/test/resources/selenium-parallel-test-suit-remote.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumHomeWork" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
-      <option name="METHOD_NAME" value="Test2" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/selenium-parallel-test-suit-remote.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Admin/Documents/Git/Test-Automation-Course/SeleniumHomeWork/src/test/resources/selenium-parallel-test-suit.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumHomeWork" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/selenium-parallel-test-suit.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTest.checkForRequiredSections" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumHomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.it_academy.selenium.onliner.local.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.it_academy.selenium.onliner.local" />
+      <option name="MAIN_CLASS_NAME" value="org.it_academy.selenium.onliner.local.SeleniumTest" />
+      <option name="METHOD_NAME" value="checkForRequiredSections" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -69,35 +110,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTest.Test3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SushiVeslaAPITest.apiTestHeadphones" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumHomeWork" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
-      <option name="METHOD_NAME" value="Test3" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SeleniumTest.Test4" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumHomeWork" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
-      <option name="METHOD_NAME" value="Test4" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SeleniumTest.checkListOfProductsInAccessoriesCategory" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumHomeWork" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
-      <option name="METHOD_NAME" value="checkListOfProductsInAccessoriesCategory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it_academy.selenium.sushivesla.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="it_academy.selenium.sushivesla" />
+      <option name="MAIN_CLASS_NAME" value="it_academy.selenium.sushivesla.SushiVeslaAPITest" />
+      <option name="METHOD_NAME" value="apiTestHeadphones" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -107,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SeleniumTest" />
-        <item itemvalue="TestNG.SeleniumTest.checkListOfProductsInAccessoriesCategory" />
-        <item itemvalue="TestNG.SeleniumTest.Test3" />
-        <item itemvalue="TestNG.SeleniumTest.Test4" />
-        <item itemvalue="TestNG.SeleniumTest.Test2" />
+        <item itemvalue="TestNG.C:/Users/Admin/Documents/Git/Test-Automation-Course/SeleniumHomeWork/src/test/resources/selenium-parallel-test-suit-local.xml" />
+        <item itemvalue="TestNG.SeleniumTest.checkForRequiredSections" />
+        <item itemvalue="TestNG.C:/Users/Admin/Documents/Git/Test-Automation-Course/SeleniumHomeWork/src/test/resources/selenium-parallel-test-suit-remote.xml" />
+        <item itemvalue="TestNG.C:/Users/Admin/Documents/Git/Test-Automation-Course/SeleniumHomeWork/src/test/resources/selenium-parallel-test-suit.xml" />
+        <item itemvalue="TestNG.SushiVeslaAPITest.apiTestHeadphones" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +149,10 @@
       <workItem from="1666958630701" duration="8810000" />
       <workItem from="1667050956833" duration="8983000" />
       <workItem from="1667141644144" duration="5734000" />
-      <workItem from="1667241266632" duration="3946000" />
+      <workItem from="1667241266632" duration="4680000" />
+      <workItem from="1667784609147" duration="3304000" />
+      <workItem from="1667827938526" duration="6076000" />
+      <workItem from="1668858180613" duration="20930000" />
     </task>
     <servers />
   </component>
@@ -137,9 +163,34 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/SeleniumTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/org/it_academy/selenium/onliner/local/SeleniumTest.java</url>
           <line>100</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/it_academy/selenium/sushivesla/SushiVeslaAPITest.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/it_academy/selenium/rest_api/service/ProductService.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/it_academy/selenium/rest_api/service/ProductService.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/it_academy/selenium/rest_api/endpoint/SushiVeslaEndpoints.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/it_academy/selenium/rest_api/service/ProductService.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.UnknownError" package="java.lang" />
