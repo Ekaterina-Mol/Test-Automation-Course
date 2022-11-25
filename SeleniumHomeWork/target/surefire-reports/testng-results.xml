@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-25T16:52:58 GET" name="ParallelTestingSuite" finished-at="2022-11-25T16:53:32 GET" duration-ms="34008">
+    <groups>
+    </groups>
+    <test started-at="2022-11-25T16:52:58 GET" name="Parallel Tests on opera" finished-at="2022-11-25T16:53:31 GET" duration-ms="33357">
+      <class name="org.it_academy.selenium.onliner.local.SeleniumTest">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@78e117e3]" started-at="2022-11-25T16:52:58 GET" name="startUp" finished-at="2022-11-25T16:53:08 GET" duration-ms="10142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="checkContextMenuForComputersLink()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@78e117e3]" started-at="2022-11-25T16:53:08 GET" name="checkContextMenuForComputersLink" finished-at="2022-11-25T16:53:10 GET" duration-ms="2083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContextMenuForComputersLink -->
+        <test-method is-config="true" signature="completing()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@78e117e3]" started-at="2022-11-25T16:53:10 GET" name="completing" finished-at="2022-11-25T16:53:11 GET" duration-ms="1263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completing -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@78e117e3]" started-at="2022-11-25T16:53:11 GET" name="startUp" finished-at="2022-11-25T16:53:19 GET" duration-ms="7922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="checkForRequiredSections()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@78e117e3]" started-at="2022-11-25T16:53:19 GET" name="checkForRequiredSections" finished-at="2022-11-25T16:53:20 GET" duration-ms="1084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForRequiredSections -->
+        <test-method is-config="true" signature="completing()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@78e117e3]" started-at="2022-11-25T16:53:20 GET" name="completing" finished-at="2022-11-25T16:53:21 GET" duration-ms="909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completing -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@78e117e3]" started-at="2022-11-25T16:53:21 GET" name="startUp" finished-at="2022-11-25T16:53:28 GET" duration-ms="6788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="checkListOfProductsInAccessoriesCategory()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@78e117e3]" started-at="2022-11-25T16:53:28 GET" name="checkListOfProductsInAccessoriesCategory" finished-at="2022-11-25T16:53:31 GET" duration-ms="2787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkListOfProductsInAccessoriesCategory -->
+        <test-method is-config="true" signature="completing()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@78e117e3]" started-at="2022-11-25T16:53:31 GET" name="completing" finished-at="2022-11-25T16:53:31 GET" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completing -->
+      </class> <!-- org.it_academy.selenium.onliner.local.SeleniumTest -->
+    </test> <!-- Parallel Tests on opera -->
+    <test started-at="2022-11-25T16:52:58 GET" name="Parallel Tests on chrome" finished-at="2022-11-25T16:53:32 GET" duration-ms="34008">
+      <class name="org.it_academy.selenium.onliner.local.SeleniumTest">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@23529fee]" started-at="2022-11-25T16:52:58 GET" name="startUp" finished-at="2022-11-25T16:53:07 GET" duration-ms="9318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="checkContextMenuForComputersLink()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@23529fee]" started-at="2022-11-25T16:53:07 GET" name="checkContextMenuForComputersLink" finished-at="2022-11-25T16:53:11 GET" duration-ms="3819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContextMenuForComputersLink -->
+        <test-method is-config="true" signature="completing()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@23529fee]" started-at="2022-11-25T16:53:11 GET" name="completing" finished-at="2022-11-25T16:53:11 GET" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completing -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@23529fee]" started-at="2022-11-25T16:53:11 GET" name="startUp" finished-at="2022-11-25T16:53:21 GET" duration-ms="9650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="checkForRequiredSections()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@23529fee]" started-at="2022-11-25T16:53:21 GET" name="checkForRequiredSections" finished-at="2022-11-25T16:53:22 GET" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForRequiredSections -->
+        <test-method is-config="true" signature="completing()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@23529fee]" started-at="2022-11-25T16:53:22 GET" name="completing" finished-at="2022-11-25T16:53:24 GET" duration-ms="2329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completing -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@23529fee]" started-at="2022-11-25T16:53:24 GET" name="startUp" finished-at="2022-11-25T16:53:29 GET" duration-ms="5572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="checkListOfProductsInAccessoriesCategory()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@23529fee]" started-at="2022-11-25T16:53:29 GET" name="checkListOfProductsInAccessoriesCategory" finished-at="2022-11-25T16:53:32 GET" duration-ms="2272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkListOfProductsInAccessoriesCategory -->
+        <test-method is-config="true" signature="completing()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@23529fee]" started-at="2022-11-25T16:53:32 GET" name="completing" finished-at="2022-11-25T16:53:32 GET" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completing -->
+      </class> <!-- org.it_academy.selenium.onliner.local.SeleniumTest -->
+    </test> <!-- Parallel Tests on chrome -->
+  </suite> <!-- ParallelTestingSuite -->
+</testng-results>

@@ -1,6 +1,7 @@
 package org.it_academy.selenium.onliner.local;
 
 import org.it_academy.selenium.framework.WebDriverDiscovery;
+import org.it_academy.selenium.listeners.AllureListener;
 import org.it_academy.selenium.pageobject.HomePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -18,6 +19,7 @@ import java.util.List;
 import static java.util.stream.Collectors.toList;
 import static org.assertj.core.api.Assertions.assertThat;
 
+@Listeners(AllureListener.class)
 public class SeleniumTest {
     private HomePage homePage;
 

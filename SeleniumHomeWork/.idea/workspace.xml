@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d707dd88-42d8-4d68-8ae3-834732e53e2c" name="Changes" comment="" />
+    <list default="true" id="d707dd88-42d8-4d68-8ae3-834732e53e2c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/it_academy/selenium/listeners/AllureListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BDDHomework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BDDHomework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ParsersHomework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ParsersHomework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL-Homework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL-Homework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SelenideHomework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SelenideHomework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/it_academy/selenium/onliner/local/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/it_academy/selenium/onliner/local/SeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/selenium-parallel-test-suit-local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/selenium-parallel-test-suit-local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium-parallel-test-suit-local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium-parallel-test-suit-local.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,25 +35,32 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2GlMHCPvKLXdyRVrHTyD8QpLB83" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Admin/Documents/Git/Test-Automation-Course/SeleniumHomeWork/src/test/resources"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Documents/Git/Test-Automation-Course/SeleniumHomeWork/src/test/resources&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "XML"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;XML&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\Documents\Git\Test-Automation-Course\SeleniumHomeWork\src\test\resources" />
@@ -61,11 +80,46 @@
       <recent name="org.it_academy.onliner.framework" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Admin/Documents/Git/Test-Automation-Course/SeleniumHomeWork/src/test/resources/selenium-parallel-test-suit-local.xml">
-    <configuration name="C:/Users/Admin/Documents/Git/Test-Automation-Course/SeleniumHomeWork/src/test/resources/selenium-parallel-test-suit-local.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Maven.SeleniumHomeWork [clean,test]">
+    <configuration name="SeleniumHomeWork [clean,test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="C:/Users/Admin/Documents/Git/Test-Automation-Course/SeleniumHomeWork/src/test/resources/selenium-parallel-test-suit-local.xml" type="TestNG" nameIsGenerated="true">
       <module name="SeleniumHomeWork" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/selenium-parallel-test-suit-local.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -128,9 +182,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Maven.SeleniumHomeWork [clean,test]" />
+      <item itemvalue="TestNG.C:/Users/Admin/Documents/Git/Test-Automation-Course/SeleniumHomeWork/src/test/resources/selenium-parallel-test-suit-local.xml" />
+      <item itemvalue="TestNG.C:/Users/Admin/Documents/Git/Test-Automation-Course/SeleniumHomeWork/src/test/resources/selenium-parallel-test-suit-remote.xml" />
+      <item itemvalue="TestNG.C:/Users/Admin/Documents/Git/Test-Automation-Course/SeleniumHomeWork/src/test/resources/selenium-parallel-test-suit.xml" />
+      <item itemvalue="TestNG.SeleniumTest.checkForRequiredSections" />
+      <item itemvalue="TestNG.SushiVeslaAPITest.apiTestHeadphones" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Admin/Documents/Git/Test-Automation-Course/SeleniumHomeWork/src/test/resources/selenium-parallel-test-suit-local.xml" />
         <item itemvalue="TestNG.SeleniumTest.checkForRequiredSections" />
         <item itemvalue="TestNG.C:/Users/Admin/Documents/Git/Test-Automation-Course/SeleniumHomeWork/src/test/resources/selenium-parallel-test-suit-remote.xml" />
         <item itemvalue="TestNG.C:/Users/Admin/Documents/Git/Test-Automation-Course/SeleniumHomeWork/src/test/resources/selenium-parallel-test-suit.xml" />
@@ -152,7 +213,10 @@
       <workItem from="1667241266632" duration="4680000" />
       <workItem from="1667784609147" duration="3304000" />
       <workItem from="1667827938526" duration="6076000" />
-      <workItem from="1668858180613" duration="20930000" />
+      <workItem from="1668858180613" duration="21564000" />
+      <workItem from="1669220450237" duration="1985000" />
+      <workItem from="1669380100157" duration="811000" />
+      <workItem from="1669380936303" duration="3689000" />
     </task>
     <servers />
   </component>
@@ -162,11 +226,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/it_academy/selenium/onliner/local/SeleniumTest.java</url>
-          <line>100</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/org/it_academy/selenium/sushivesla/SushiVeslaAPITest.java</url>
           <line>35</line>

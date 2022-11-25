@@ -15,6 +15,7 @@
         <maven.compiler.target>11</maven.compiler.target>
         <selenium.version>3.141.59</selenium.version>
         <log4j.version>2.17.1</log4j.version>
+        <aspectj.version>1.8.10</aspectj.version>
         <!--Drivers-->
         <chrome.driver.path>${project.basedir}/src/test/resources/chromedriver.exe</chrome.driver.path>
         <opera.driver.path>${project.basedir}/src/test/resources/operadriver.exe</opera.driver.path>
@@ -37,6 +38,23 @@
                         </suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.20</version>
+                <configuration>
+                    <argLine>
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                    </argLine>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjweaver</artifactId>
+                        <version>${aspectj.version}</version>
+                    </dependency>
+                </dependencies>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -99,6 +117,11 @@
             <artifactId>webdrivermanager</artifactId>
             <version>5.2.0</version>
         </dependency>
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>2.20.1</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
-
 </project>

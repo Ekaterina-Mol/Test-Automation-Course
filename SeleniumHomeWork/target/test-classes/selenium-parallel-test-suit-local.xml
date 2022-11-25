@@ -1,15 +1,15 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="Parallel Testing Suite" parallel="tests">
+<suite name="ParallelTestingSuite" parallel="tests">
     <test name="Parallel Tests on chrome">
         <parameter name="browser" value="chrome"/>
         <classes>
             <class name="org.it_academy.selenium.onliner.local.SeleniumTest"/>
         </classes>
     </test>
-    <!--<test name="Parallel Tests on opera">
+    <test name="Parallel Tests on opera">
         <parameter name="browser" value="opera"/>
         <classes>
             <class name="org.it_academy.selenium.onliner.local.SeleniumTest"/>
         </classes>
-    </test>-->
+    </test>
 </suite>

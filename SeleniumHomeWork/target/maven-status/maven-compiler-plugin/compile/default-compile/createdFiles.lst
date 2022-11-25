@@ -1,0 +1,14 @@
+org\it_academy\selenium\rest_api\endpoint\SushiVeslaEndpoints.class
+org\it_academy\selenium\pageobject\BasePage.class
+org\it_academy\selenium\rest_api\utils\GetRequestUtils.class
+org\it_academy\selenium\rest_api\model\FilterTypes.class
+org\it_academy\selenium\pageobject\HomePage.class
+org\it_academy\selenium\framework\WebDriverDiscovery.class
+org\it_academy\selenium\framework\OptionsManager.class
+org\it_academy\selenium\rest_api\service\ProductService$1.class
+org\it_academy\selenium\rest_api\service\ProductService.class
+org\it_academy\selenium\framework\RemoteWebDriverDiscovery.class
+org\it_academy\selenium\rest_api\utils\ResponseBodyUtils.class
+org\it_academy\selenium\framework\CapabilityFactory.class
+org\it_academy\selenium\framework\PropertiesReader.class
+org\it_academy\selenium\rest_api\model\ProductModel.class
