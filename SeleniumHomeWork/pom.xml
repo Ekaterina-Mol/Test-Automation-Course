@@ -31,6 +31,11 @@
                         <webdriver.chrome.driver>${chrome.driver.path}</webdriver.chrome.driver>
                         <webdriver.opera.driver>${opera.driver.path}</webdriver.opera.driver>
                     </systemPropertyVariables>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>
+                            src\test\resources\selenium-parallel-test-suit-local.xml
+                        </suiteXmlFile>
+                    </suiteXmlFiles>
                 </configuration>
             </plugin>
             <plugin>
