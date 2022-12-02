@@ -32,11 +32,11 @@
                         <webdriver.chrome.driver>${chrome.driver.path}</webdriver.chrome.driver>
                         <webdriver.opera.driver>${opera.driver.path}</webdriver.opera.driver>
                     </systemPropertyVariables>
-                    <suiteXmlFiles>
+                    <!--<suiteXmlFiles>
                         <suiteXmlFile>
                             src\test\resources\selenium-parallel-test-suit-local.xml
                         </suiteXmlFile>
-                    </suiteXmlFiles>
+                    </suiteXmlFiles>-->
                 </configuration>
             </plugin>
             <plugin>
@@ -122,6 +122,21 @@
             <artifactId>allure-testng</artifactId>
             <version>2.20.1</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j-impl</artifactId>
+            <version>${log4j.version}</version>
         </dependency>
     </dependencies>
 </project>

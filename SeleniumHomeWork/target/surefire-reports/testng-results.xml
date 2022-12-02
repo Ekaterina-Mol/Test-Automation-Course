@@ -1,131 +1,485 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="5" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-25T16:52:58 GET" name="ParallelTestingSuite" finished-at="2022-11-25T16:53:32 GET" duration-ms="34008">
+  <suite started-at="2022-12-01T20:41:12 GET" name="Surefire suite" finished-at="2022-12-01T20:41:43 GET" duration-ms="31506">
     <groups>
     </groups>
-    <test started-at="2022-11-25T16:52:58 GET" name="Parallel Tests on opera" finished-at="2022-11-25T16:53:31 GET" duration-ms="33357">
-      <class name="org.it_academy.selenium.onliner.local.SeleniumTest">
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@78e117e3]" started-at="2022-11-25T16:52:58 GET" name="startUp" finished-at="2022-11-25T16:53:08 GET" duration-ms="10142" status="PASS">
+    <test started-at="2022-12-01T20:41:12 GET" name="Surefire test" finished-at="2022-12-01T20:41:43 GET" duration-ms="31506">
+      <class name="org.it_academy.selenium.onliner.remote.RemoteSeleniumTest">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:org.it_academy.selenium.onliner.remote.RemoteSeleniumTest@43e065f2]" started-at="2022-12-01T20:41:37 GET" name="startUp" finished-at="2022-12-01T20:41:37 GET" duration-ms="16" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[opera]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'STLENOVO', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'STLENOVO', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+at org.it_academy.selenium.framework.RemoteWebDriverDiscovery.setDriver(RemoteWebDriverDiscovery.java:21)
+at org.it_academy.selenium.onliner.remote.RemoteSeleniumTest.startUp(RemoteSeleniumTest.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.net.ConnectException: Failed to connect to /127.0.0.1:4444
+at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+at okhttp3.RealCall.execute(RealCall.java:77)
+at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+... 39 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+at java.base/java.net.Socket.connect(Socket.java:633)
+at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+... 61 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="checkContextMenuForComputersLink()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@78e117e3]" started-at="2022-11-25T16:53:08 GET" name="checkContextMenuForComputersLink" finished-at="2022-11-25T16:53:10 GET" duration-ms="2083" status="PASS">
+        <test-method signature="checkContextMenuForComputersLink()[pri:0, instance:org.it_academy.selenium.onliner.remote.RemoteSeleniumTest@43e065f2]" started-at="2022-12-01T20:41:37 GET" name="checkContextMenuForComputersLink" finished-at="2022-12-01T20:41:37 GET" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'STLENOVO', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'STLENOVO', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+at org.it_academy.selenium.framework.RemoteWebDriverDiscovery.setDriver(RemoteWebDriverDiscovery.java:21)
+at org.it_academy.selenium.onliner.remote.RemoteSeleniumTest.startUp(RemoteSeleniumTest.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.net.ConnectException: Failed to connect to /127.0.0.1:4444
+at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+at okhttp3.RealCall.execute(RealCall.java:77)
+at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+... 39 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+at java.base/java.net.Socket.connect(Socket.java:633)
+at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+... 61 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkContextMenuForComputersLink -->
-        <test-method is-config="true" signature="completing()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@78e117e3]" started-at="2022-11-25T16:53:10 GET" name="completing" finished-at="2022-11-25T16:53:11 GET" duration-ms="1263" status="PASS">
+        <test-method is-config="true" signature="completing()[pri:0, instance:org.it_academy.selenium.onliner.remote.RemoteSeleniumTest@43e065f2]" started-at="2022-12-01T20:41:37 GET" name="completing" finished-at="1970-01-01T04:00:00 GET" duration-ms="-1669912897303" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- completing -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@78e117e3]" started-at="2022-11-25T16:53:11 GET" name="startUp" finished-at="2022-11-25T16:53:19 GET" duration-ms="7922" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[opera]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:org.it_academy.selenium.onliner.remote.RemoteSeleniumTest@43e065f2]" started-at="2022-12-01T20:41:37 GET" name="startUp" finished-at="1970-01-01T04:00:00 GET" duration-ms="-1669912897306" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="checkForRequiredSections()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@78e117e3]" started-at="2022-11-25T16:53:19 GET" name="checkForRequiredSections" finished-at="2022-11-25T16:53:20 GET" duration-ms="1084" status="PASS">
+        <test-method signature="checkForRequiredSections()[pri:0, instance:org.it_academy.selenium.onliner.remote.RemoteSeleniumTest@43e065f2]" started-at="2022-12-01T20:41:37 GET" name="checkForRequiredSections" finished-at="2022-12-01T20:41:37 GET" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'STLENOVO', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'STLENOVO', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+at org.it_academy.selenium.framework.RemoteWebDriverDiscovery.setDriver(RemoteWebDriverDiscovery.java:21)
+at org.it_academy.selenium.onliner.remote.RemoteSeleniumTest.startUp(RemoteSeleniumTest.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.net.ConnectException: Failed to connect to /127.0.0.1:4444
+at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+at okhttp3.RealCall.execute(RealCall.java:77)
+at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+... 39 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+at java.base/java.net.Socket.connect(Socket.java:633)
+at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+... 61 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkForRequiredSections -->
-        <test-method is-config="true" signature="completing()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@78e117e3]" started-at="2022-11-25T16:53:20 GET" name="completing" finished-at="2022-11-25T16:53:21 GET" duration-ms="909" status="PASS">
+        <test-method is-config="true" signature="completing()[pri:0, instance:org.it_academy.selenium.onliner.remote.RemoteSeleniumTest@43e065f2]" started-at="2022-12-01T20:41:37 GET" name="completing" finished-at="1970-01-01T04:00:00 GET" duration-ms="-1669912897316" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- completing -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@78e117e3]" started-at="2022-11-25T16:53:21 GET" name="startUp" finished-at="2022-11-25T16:53:28 GET" duration-ms="6788" status="PASS">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:org.it_academy.selenium.onliner.remote.RemoteSeleniumTest@43e065f2]" started-at="2022-12-01T20:41:37 GET" name="startUp" finished-at="1970-01-01T04:00:00 GET" duration-ms="-1669912897320" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="checkListOfProductsInAccessoriesCategory()[pri:0, instance:org.it_academy.selenium.onliner.remote.RemoteSeleniumTest@43e065f2]" started-at="2022-12-01T20:41:37 GET" name="checkListOfProductsInAccessoriesCategory" finished-at="2022-12-01T20:41:37 GET" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'STLENOVO', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'STLENOVO', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
+at org.it_academy.selenium.framework.RemoteWebDriverDiscovery.setDriver(RemoteWebDriverDiscovery.java:21)
+at org.it_academy.selenium.onliner.remote.RemoteSeleniumTest.startUp(RemoteSeleniumTest.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.net.ConnectException: Failed to connect to /127.0.0.1:4444
+at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+at okhttp3.RealCall.execute(RealCall.java:77)
+at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+... 39 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:539)
+at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+at java.base/java.net.Socket.connect(Socket.java:633)
+at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+... 61 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkListOfProductsInAccessoriesCategory -->
+        <test-method is-config="true" signature="completing()[pri:0, instance:org.it_academy.selenium.onliner.remote.RemoteSeleniumTest@43e065f2]" started-at="2022-12-01T20:41:37 GET" name="completing" finished-at="1970-01-01T04:00:00 GET" duration-ms="-1669912897344" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completing -->
+      </class> <!-- org.it_academy.selenium.onliner.remote.RemoteSeleniumTest -->
+      <class name="org.it_academy.selenium.onliner.local.SeleniumTest">
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@303f1234]" started-at="2022-12-01T20:41:12 GET" name="startUp" finished-at="2022-12-01T20:41:18 GET" duration-ms="6304" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[opera]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="checkListOfProductsInAccessoriesCategory()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@78e117e3]" started-at="2022-11-25T16:53:28 GET" name="checkListOfProductsInAccessoriesCategory" finished-at="2022-11-25T16:53:31 GET" duration-ms="2787" status="PASS">
+        <test-method signature="checkContextMenuForComputersLink()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@303f1234]" started-at="2022-12-01T20:41:18 GET" name="checkContextMenuForComputersLink" finished-at="2022-12-01T20:41:20 GET" duration-ms="1216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContextMenuForComputersLink -->
+        <test-method is-config="true" signature="completing()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@303f1234]" started-at="2022-12-01T20:41:20 GET" name="completing" finished-at="2022-12-01T20:41:20 GET" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completing -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@303f1234]" started-at="2022-12-01T20:41:20 GET" name="startUp" finished-at="2022-12-01T20:41:29 GET" duration-ms="9451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="checkForRequiredSections()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@303f1234]" started-at="2022-12-01T20:41:29 GET" name="checkForRequiredSections" finished-at="2022-12-01T20:41:30 GET" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkForRequiredSections -->
+        <test-method is-config="true" signature="completing()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@303f1234]" started-at="2022-12-01T20:41:30 GET" name="completing" finished-at="2022-12-01T20:41:30 GET" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completing -->
+        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@303f1234]" started-at="2022-12-01T20:41:30 GET" name="startUp" finished-at="2022-12-01T20:41:35 GET" duration-ms="4924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="checkListOfProductsInAccessoriesCategory()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@303f1234]" started-at="2022-12-01T20:41:35 GET" name="checkListOfProductsInAccessoriesCategory" finished-at="2022-12-01T20:41:37 GET" duration-ms="1751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkListOfProductsInAccessoriesCategory -->
-        <test-method is-config="true" signature="completing()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@78e117e3]" started-at="2022-11-25T16:53:31 GET" name="completing" finished-at="2022-11-25T16:53:31 GET" duration-ms="336" status="PASS">
+        <test-method is-config="true" signature="completing()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@303f1234]" started-at="2022-12-01T20:41:37 GET" name="completing" finished-at="2022-12-01T20:41:37 GET" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- completing -->
       </class> <!-- org.it_academy.selenium.onliner.local.SeleniumTest -->
-    </test> <!-- Parallel Tests on opera -->
-    <test started-at="2022-11-25T16:52:58 GET" name="Parallel Tests on chrome" finished-at="2022-11-25T16:53:32 GET" duration-ms="34008">
-      <class name="org.it_academy.selenium.onliner.local.SeleniumTest">
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@23529fee]" started-at="2022-11-25T16:52:58 GET" name="startUp" finished-at="2022-11-25T16:53:07 GET" duration-ms="9318" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+      <class name="org.it_academy.selenium.sushivesla.SushiVeslaAPITest">
+        <test-method signature="checkSearchProductItems()[pri:0, instance:org.it_academy.selenium.sushivesla.SushiVeslaAPITest@423c5404]" started-at="2022-12-01T20:41:37 GET" name="checkSearchProductItems" finished-at="2022-12-01T20:41:43 GET" duration-ms="5998" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startUp -->
-        <test-method signature="checkContextMenuForComputersLink()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@23529fee]" started-at="2022-11-25T16:53:07 GET" name="checkContextMenuForComputersLink" finished-at="2022-11-25T16:53:11 GET" duration-ms="3819" status="PASS">
+        </test-method> <!-- checkSearchProductItems -->
+        <test-method signature="checkSearchProductItemsWithFilterRolls()[pri:0, instance:org.it_academy.selenium.sushivesla.SushiVeslaAPITest@423c5404]" started-at="2022-12-01T20:41:43 GET" name="checkSearchProductItemsWithFilterRolls" finished-at="2022-12-01T20:41:43 GET" duration-ms="536" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkContextMenuForComputersLink -->
-        <test-method is-config="true" signature="completing()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@23529fee]" started-at="2022-11-25T16:53:11 GET" name="completing" finished-at="2022-11-25T16:53:11 GET" duration-ms="380" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- completing -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@23529fee]" started-at="2022-11-25T16:53:11 GET" name="startUp" finished-at="2022-11-25T16:53:21 GET" duration-ms="9650" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startUp -->
-        <test-method signature="checkForRequiredSections()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@23529fee]" started-at="2022-11-25T16:53:21 GET" name="checkForRequiredSections" finished-at="2022-11-25T16:53:22 GET" duration-ms="421" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkForRequiredSections -->
-        <test-method is-config="true" signature="completing()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@23529fee]" started-at="2022-11-25T16:53:22 GET" name="completing" finished-at="2022-11-25T16:53:24 GET" duration-ms="2329" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- completing -->
-        <test-method is-config="true" signature="startUp(java.lang.String)[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@23529fee]" started-at="2022-11-25T16:53:24 GET" name="startUp" finished-at="2022-11-25T16:53:29 GET" duration-ms="5572" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startUp -->
-        <test-method signature="checkListOfProductsInAccessoriesCategory()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@23529fee]" started-at="2022-11-25T16:53:29 GET" name="checkListOfProductsInAccessoriesCategory" finished-at="2022-11-25T16:53:32 GET" duration-ms="2272" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkListOfProductsInAccessoriesCategory -->
-        <test-method is-config="true" signature="completing()[pri:0, instance:org.it_academy.selenium.onliner.local.SeleniumTest@23529fee]" started-at="2022-11-25T16:53:32 GET" name="completing" finished-at="2022-11-25T16:53:32 GET" duration-ms="199" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- completing -->
-      </class> <!-- org.it_academy.selenium.onliner.local.SeleniumTest -->
-    </test> <!-- Parallel Tests on chrome -->
-  </suite> <!-- ParallelTestingSuite -->
+        </test-method> <!-- checkSearchProductItemsWithFilterRolls -->
+      </class> <!-- org.it_academy.selenium.sushivesla.SushiVeslaAPITest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>

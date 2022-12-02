@@ -9,6 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.annotations.*;
 
 import java.time.Duration;
@@ -23,9 +25,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class SeleniumTest {
     private HomePage homePage;
 
+    private static final Logger logger = LoggerFactory.getLogger(SeleniumTest.class);
+
     @BeforeMethod
     @Parameters(value = {"browser"})
     public void startUp(String browser) {
+        logger.info("Testing started for " + browser + " browser");
         WebDriverDiscovery.setDriver(browser);
 
         this.homePage = new HomePage(WebDriverDiscovery.getDriver());
@@ -34,7 +39,9 @@ public class SeleniumTest {
 
     @AfterMethod
     public void completing() {
+
         this.homePage.closeBrowser();
+        logger.info("Test finished successfully");
     }
     @Test
     public void checkForRequiredSections() {

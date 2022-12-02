@@ -5,17 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d707dd88-42d8-4d68-8ae3-834732e53e2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/it_academy/selenium/listeners/AllureListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BDDHomework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BDDHomework/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ParsersHomework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ParsersHomework/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SQL-Homework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL-Homework/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SelenideHomework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SelenideHomework/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/it_academy/selenium/framework/RemoteWebDriverDiscovery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/it_academy/selenium/framework/RemoteWebDriverDiscovery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/it_academy/selenium/framework/WebDriverDiscovery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/it_academy/selenium/framework/WebDriverDiscovery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/it_academy/selenium/listeners/AllureListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/it_academy/selenium/listeners/AllureListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/it_academy/selenium/onliner/local/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/it_academy/selenium/onliner/local/SeleniumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/selenium-parallel-test-suit-local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/selenium-parallel-test-suit-local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium-parallel-test-suit-local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium-parallel-test-suit-local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ParallelTestingSuite/Parallel Tests on chrome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ParallelTestingSuite/Parallel Tests on chrome.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ParallelTestingSuite/Parallel Tests on opera.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ParallelTestingSuite/Parallel Tests on opera.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-org.it_academy.selenium.onliner.local.SeleniumTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-org.it_academy.selenium.onliner.local.SeleniumTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/ParallelTestingSuite/Parallel Tests on chrome.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/ParallelTestingSuite/Parallel Tests on opera.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/ParallelTestingSuite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/ParallelTestingSuite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/ParallelTestingSuite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/ParallelTestingSuite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/ParallelTestingSuite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/ParallelTestingSuite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/ParallelTestingSuite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/ParallelTestingSuite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/ParallelTestingSuite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/ParallelTestingSuite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,11 +104,28 @@
       <recent name="org.it_academy.onliner.framework" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.SeleniumHomeWork [clean,test]">
+  <component name="RunManager" selected="TestNG.SeleniumTest">
     <configuration name="SeleniumHomeWork [clean,test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#USE_PROJECT_JDK" />
+            <option name="mavenProperties">
+              <map>
+                <entry key="browser" value="chrome" />
+              </map>
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
         <option name="myRunnerParameters">
           <MavenRunnerParameters>
             <option name="profiles">
@@ -128,8 +169,17 @@
     </configuration>
     <configuration name="C:/Users/Admin/Documents/Git/Test-Automation-Course/SeleniumHomeWork/src/test/resources/selenium-parallel-test-suit-remote.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumHomeWork" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/selenium-parallel-test-suit-remote.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -141,6 +191,29 @@
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/selenium-parallel-test-suit.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTest" type="TestNG" nameIsGenerated="true">
+      <module name="SeleniumHomeWork" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="org.it_academy.selenium.onliner.local" />
+      <option name="MAIN_CLASS_NAME" value="org.it_academy.selenium.onliner.local.SeleniumTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties>
+        <property name="browser" value="chrome" />
+      </properties>
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -185,6 +258,7 @@
     <list>
       <item itemvalue="Maven.SeleniumHomeWork [clean,test]" />
       <item itemvalue="TestNG.C:/Users/Admin/Documents/Git/Test-Automation-Course/SeleniumHomeWork/src/test/resources/selenium-parallel-test-suit-local.xml" />
+      <item itemvalue="TestNG.SeleniumTest" />
       <item itemvalue="TestNG.C:/Users/Admin/Documents/Git/Test-Automation-Course/SeleniumHomeWork/src/test/resources/selenium-parallel-test-suit-remote.xml" />
       <item itemvalue="TestNG.C:/Users/Admin/Documents/Git/Test-Automation-Course/SeleniumHomeWork/src/test/resources/selenium-parallel-test-suit.xml" />
       <item itemvalue="TestNG.SeleniumTest.checkForRequiredSections" />
@@ -216,7 +290,9 @@
       <workItem from="1668858180613" duration="21564000" />
       <workItem from="1669220450237" duration="1985000" />
       <workItem from="1669380100157" duration="811000" />
-      <workItem from="1669380936303" duration="3689000" />
+      <workItem from="1669380936303" duration="4291000" />
+      <workItem from="1669649872234" duration="601000" />
+      <workItem from="1669908979288" duration="6284000" />
     </task>
     <servers />
   </component>
@@ -250,6 +326,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/it_academy/selenium/rest_api/service/ProductService.java</url>
           <line>22</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/it_academy/selenium/onliner/local/SeleniumTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.UnknownError" package="java.lang" />

@@ -1,3 +1,4 @@
+org\it_academy\selenium\listeners\AllureListener.class
 org\it_academy\selenium\sushivesla\SushiVeslaAPITest.class
 org\it_academy\selenium\onliner\local\SeleniumTest.class
 org\it_academy\selenium\onliner\remote\RemoteSeleniumTest.class
