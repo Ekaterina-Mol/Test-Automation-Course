@@ -3,13 +3,13 @@
     <test name="Parallel Remote Tests on chrome">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="org.it_academy.selenium.onliner.remote.RemoteSeleniumTest"/>
+            <class name="org.it_academy.selenium.ui.onliner.remote.RemoteOnlinerHomePageTest"/>
         </classes>
     </test>
     <test name="Parallel Remote Tests on firefox">
         <parameter name="browser" value="firefox"/>
         <classes>
-            <class name="org.it_academy.selenium.onliner.remote.RemoteSeleniumTest"/>
+            <class name="org.it_academy.selenium.ui.onliner.remote.RemoteOnlinerHomePageTest"/>
         </classes>
     </test>
 </suite>

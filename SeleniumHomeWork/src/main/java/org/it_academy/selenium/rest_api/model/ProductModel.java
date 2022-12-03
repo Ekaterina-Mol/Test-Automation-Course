@@ -2,7 +2,7 @@ package org.it_academy.selenium.rest_api.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-@JsonIgnoreProperties({"advertise","color_code","description","extended_name","forum","html_url","image_size","images","max_cobrand_cashback","max_installment_terms","micro_description","prices","prime_info","review_url","sale","second","status","stickers","url","reviews"})
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class ProductModel {
     private int id;
     private String key;

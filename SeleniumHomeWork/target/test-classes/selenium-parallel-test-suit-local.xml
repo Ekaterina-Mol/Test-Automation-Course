@@ -3,13 +3,13 @@
     <test name="Parallel Tests on chrome">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="org.it_academy.selenium.onliner.local.SeleniumTest"/>
+            <class name="org.it_academy.selenium.ui.onliner.local.OnlinerHomePageTest"/>
         </classes>
     </test>
     <test name="Parallel Tests on opera">
         <parameter name="browser" value="opera"/>
         <classes>
-            <class name="org.it_academy.selenium.onliner.local.SeleniumTest"/>
+            <class name="org.it_academy.selenium.ui.onliner.local.OnlinerHomePageTest"/>
         </classes>
     </test>
 </suite>

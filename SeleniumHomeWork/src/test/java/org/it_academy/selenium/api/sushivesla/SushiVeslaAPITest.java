@@ -1,4 +1,4 @@
-package org.it_academy.selenium.sushivesla;
+package org.it_academy.selenium.api.sushivesla;
 
 
 import org.it_academy.selenium.rest_api.model.FilterTypes;

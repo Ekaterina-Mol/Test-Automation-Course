@@ -2,7 +2,6 @@ package org.it_academy.selenium.listeners;
 
 import io.qameta.allure.Allure;
 import org.it_academy.selenium.framework.WebDriverDiscovery;
-import org.it_academy.selenium.onliner.local.SeleniumTest;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -22,14 +21,14 @@ public class AllureListener extends TestListenerAdapter {
     public void onTestFailure(ITestResult tr) {
         logger.info("Executing listener on failure");
 
-        this.takeScreenshot();
+        takeScreenshot();
     }
 
     @Override
     public void onTestSkipped(ITestResult tr) {
         logger.info("Executing listener on skipped");
 
-        this.takeScreenshot();
+        takeScreenshot();
     }
 
     private void takeScreenshot(){

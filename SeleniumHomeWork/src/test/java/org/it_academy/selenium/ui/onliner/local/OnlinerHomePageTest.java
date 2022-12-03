@@ -1,20 +1,13 @@
-package org.it_academy.selenium.onliner.local;
+package org.it_academy.selenium.ui.onliner.local;
 
 import org.it_academy.selenium.framework.WebDriverDiscovery;
 import org.it_academy.selenium.listeners.AllureListener;
 import org.it_academy.selenium.pageobject.HomePage;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.*;
 
-import java.time.Duration;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -22,10 +15,10 @@ import static java.util.stream.Collectors.toList;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @Listeners(AllureListener.class)
-public class SeleniumTest {
+public class OnlinerHomePageTest {
     private HomePage homePage;
 
-    private static final Logger logger = LoggerFactory.getLogger(SeleniumTest.class);
+    private static final Logger logger = LoggerFactory.getLogger(OnlinerHomePageTest.class);
 
     @BeforeMethod
     @Parameters(value = {"browser"})
@@ -33,14 +26,14 @@ public class SeleniumTest {
         logger.info("Testing started for " + browser + " browser");
         WebDriverDiscovery.setDriver(browser);
 
-        this.homePage = new HomePage(WebDriverDiscovery.getDriver());
-        this.homePage.navigateToHomePage();
+        homePage = new HomePage(WebDriverDiscovery.getDriver());
+        homePage.navigateToHomePage();
     }
 
     @AfterMethod
     public void completing() {
 
-        this.homePage.closeBrowser();
+        homePage.closeBrowser();
         logger.info("Test finished successfully");
     }
     @Test
@@ -56,7 +49,7 @@ public class SeleniumTest {
                 "Детям и мамам",
                 "Работа и офис");
 
-        var categories = this.homePage.getCategoryWebElements()
+        var categories = homePage.getCategoryWebElements()
                 .stream()
                 .map(category -> category.getText())
                 .collect(toList());;
@@ -71,7 +64,7 @@ public class SeleniumTest {
                 "Хранение данных",
                 "Сетевое оборудование");
 
-        var menuItems = this.homePage
+        var menuItems = homePage
                 .clickOnCategory("Компьютеры и сети")
                 .getContextMenuItemsForActiveCategory()
                 .stream()
@@ -82,7 +75,7 @@ public class SeleniumTest {
     }
     @Test
     public void checkListOfProductsInAccessoriesCategory() {
-        var products = this.homePage
+        var products = homePage
                 .clickOnCategory("Компьютеры и сети")
                 .clickOnContextMenuLink("Комплектующие")
                 .getProducts();

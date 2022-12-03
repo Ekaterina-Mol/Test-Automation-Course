@@ -6,10 +6,12 @@ public class CapabilityFactory {
     public DesiredCapabilities capabilities;
 
     public DesiredCapabilities getCapabilities(String browser) {
-        if (browser.equals("firefox"))
-            capabilities = OptionsManager.getFirefoxDesiredCapabilities();
-        else {
-            capabilities = OptionsManager.getChromeDesiredCapabilities();
+        switch (browser){
+            case "firefox":
+                capabilities = OptionsManager.getFirefoxDesiredCapabilities();
+                break;
+            default:
+                capabilities = OptionsManager.getChromeDesiredCapabilities();
         }
 
         return capabilities;

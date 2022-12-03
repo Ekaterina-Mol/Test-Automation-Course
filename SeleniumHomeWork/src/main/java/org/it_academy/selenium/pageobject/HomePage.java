@@ -9,12 +9,12 @@ import java.util.List;
 public class HomePage extends BasePage {
     private static final String ONLINER_CATALOG_URL = "https://catalog.onliner.by/";
 
-    private static final String CATALOG_CATEGORIES = "//*[@class= 'catalog-navigation-classifier__item ']" +
-            "//span[@class='catalog-navigation-classifier__item-title-wrapper']";
-    private static final String ACTIVE_CATALOG_CATEGORY = "//*[contains(@class,'catalog-navigation-classifier__item_active')]";
-    private static final String CONTEXT_MENU_LINK = "//div[@class='catalog-navigation-list__category' and @data-id='%s']" +
+    private static final By CATALOG_CATEGORIES = By.xpath("//*[@class= 'catalog-navigation-classifier__item ']" +
+            "//span[@class='catalog-navigation-classifier__item-title-wrapper']");
+    private static final By ACTIVE_CATALOG_CATEGORY = By.xpath("//*[contains(@class,'catalog-navigation-classifier__item_active')]");
+    private static final String CONTEXT_MENU_LINK_PATTERN = "//div[@class='catalog-navigation-list__category' and @data-id='%s']" +
             "//div[@class='catalog-navigation-list__aside-title']";
-    private static final String PRODUCT_TEMPLATE = "//div[@class='catalog-navigation-list__category' and @data-id='%s']" +
+    private static final String PRODUCT_PATTERN = "//div[@class='catalog-navigation-list__category' and @data-id='%s']" +
             "//div[@class='catalog-navigation-list__aside-item catalog-navigation-list__aside-item_active']" +
             "//a";
 
@@ -23,36 +23,36 @@ public class HomePage extends BasePage {
     }
 
     public HomePage navigateToHomePage(){
-        this.navigate(ONLINER_CATALOG_URL);
+        navigate(ONLINER_CATALOG_URL);
         return this;
     }
 
     public List<WebElement> getCategoryWebElements(){
-        return this.waitForElementsVisible(By.xpath(CATALOG_CATEGORIES));
+        return waitForElementsVisible(CATALOG_CATEGORIES);
     }
 
     public HomePage clickOnCategory(String categoryName) {
-        this.getCategoryWebElements().stream().filter(category -> category.getText().equals(categoryName)).findAny().get().click();
+        getCategoryWebElements().stream().filter(category -> category.getText().equals(categoryName)).findAny().get().click();
 
         return this;
     }
 
     public List<WebElement> getContextMenuItemsForActiveCategory() {
-        return this. waitForElementsVisible(By.xpath(String.format(CONTEXT_MENU_LINK, this.getActiveDirectoryDataId())));
+        return waitForElementsVisible(By.xpath(String.format(CONTEXT_MENU_LINK_PATTERN, this.getActiveDirectoryDataId())));
     }
 
     public HomePage clickOnContextMenuLink(String menuLink) {
-        this.getContextMenuItemsForActiveCategory().stream().filter(menuItem -> menuItem.getText().equals(menuLink)).findAny().get().click();
+        getContextMenuItemsForActiveCategory().stream().filter(menuItem -> menuItem.getText().equals(menuLink)).findAny().get().click();
 
         return this;
     }
 
     public List<WebElement> getProducts() {
-        return this. waitForElementsVisible(By.xpath(String.format(PRODUCT_TEMPLATE, this.getActiveDirectoryDataId())));
+        return waitForElementsVisible(By.xpath(String.format(PRODUCT_PATTERN, this.getActiveDirectoryDataId())));
     }
 
     private String getActiveDirectoryDataId() {
-        return this.driver.findElement(By.xpath(ACTIVE_CATALOG_CATEGORY)).getAttribute("data-id");
+        return driver.findElement(ACTIVE_CATALOG_CATEGORY).getAttribute("data-id");
     }
 
 }

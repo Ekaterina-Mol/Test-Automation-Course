@@ -20,7 +20,7 @@ public class RemoteWebDriverDiscovery {
 
     public static void setDriver(String browser) {
         try {
-            driver.set(new RemoteWebDriver(new URL("http://127.0.0.1:4444/"),
+            driver.set(new RemoteWebDriver(new URL(PropertiesReader.getSeleniumGridProperty("selenium.grid.endpoint")),
                     capabilityFactory.getCapabilities(browser)));
         } catch (MalformedURLException e) {
             logger.error("Remote driver connection failed. \nStack trace: " + e.getStackTrace().toString());

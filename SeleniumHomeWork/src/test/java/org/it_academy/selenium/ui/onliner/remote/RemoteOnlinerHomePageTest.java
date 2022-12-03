@@ -1,26 +1,20 @@
-package org.it_academy.selenium.onliner.remote;
+package org.it_academy.selenium.ui.onliner.remote;
 
 import org.it_academy.selenium.framework.RemoteWebDriverDiscovery;
-import org.it_academy.selenium.framework.WebDriverDiscovery;
 import org.it_academy.selenium.pageobject.HomePage;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import java.time.Duration;
 import java.util.Arrays;
 import java.util.List;
 
 import static java.util.stream.Collectors.toList;
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class RemoteSeleniumTest {
+public class RemoteOnlinerHomePageTest {
     private HomePage homePage;
 
     @BeforeMethod
@@ -28,13 +22,13 @@ public class RemoteSeleniumTest {
     public void startUp(String browser) {
         RemoteWebDriverDiscovery.setDriver(browser);
 
-        this.homePage = new HomePage(RemoteWebDriverDiscovery.getDriver());
-        this.homePage.navigateToHomePage();
+        homePage = new HomePage(RemoteWebDriverDiscovery.getDriver());
+        homePage.navigateToHomePage();
     }
 
     @AfterMethod
     public void completing() {
-        this.homePage.closeBrowser();
+        homePage.closeBrowser();
     }
     @Test
     public void checkForRequiredSections() {
@@ -49,7 +43,7 @@ public class RemoteSeleniumTest {
                 "Детям и мамам",
                 "Работа и офис");
 
-        var categories = this.homePage.getCategoryWebElements()
+        var categories = homePage.getCategoryWebElements()
                 .stream()
                 .map(category -> category.getText())
                 .collect(toList());;
@@ -64,7 +58,7 @@ public class RemoteSeleniumTest {
                 "Хранение данных",
                 "Сетевое оборудование");
 
-        var menuItems = this.homePage
+        var menuItems = homePage
                 .clickOnCategory("Компьютеры и сети")
                 .getContextMenuItemsForActiveCategory()
                 .stream()
@@ -75,7 +69,7 @@ public class RemoteSeleniumTest {
     }
     @Test
     public void checkListOfProductsInAccessoriesCategory() {
-        var products = this.homePage
+        var products = homePage
                 .clickOnCategory("Компьютеры и сети")
                 .clickOnContextMenuLink("Комплектующие")
                 .getProducts();
