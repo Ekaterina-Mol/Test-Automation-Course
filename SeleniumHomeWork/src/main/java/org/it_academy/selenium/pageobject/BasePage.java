@@ -16,6 +16,7 @@ public abstract class BasePage {
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
+        this.driver.manage().window().maximize();
     }
 
     public WebElement waitForElementVisible(By by) {
