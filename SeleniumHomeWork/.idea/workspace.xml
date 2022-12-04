@@ -5,23 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d707dd88-42d8-4d68-8ae3-834732e53e2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/seleniumGrid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQL-Homework/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQL-Homework/src/main/java/org/It_Academy/SQL_Homework/utils/PropertiesReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQL-Homework/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SelenideHomework/src/main/java/org/it_academy/selenide/framework/FirefoxDriverCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SelenideHomework/src/test/resources/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../calculator/src/test/java/com/it_academy/calculator/common/TestConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BDDHomework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BDDHomework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BDDHomework/src/test/java/org/it_academy/bddhomework/steps/OnlinerMainPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BDDHomework/src/test/java/org/it_academy/bddhomework/steps/OnlinerMainPageSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ParsersHomework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ParsersHomework/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SQL-Homework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL-Homework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL-Homework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL-Homework/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL-Homework/src/main/java/org/It_Academy/SQL_Homework/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL-Homework/src/main/java/org/It_Academy/SQL_Homework/model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL-Homework/src/main/java/org/It_Academy/SQL_Homework/model/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL-Homework/src/main/java/org/It_Academy/SQL_Homework/model/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL-Homework/src/main/java/org/It_Academy/SQL_Homework/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL-Homework/src/main/java/org/It_Academy/SQL_Homework/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL-Homework/src/main/java/org/It_Academy/SQL_Homework/presentation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL-Homework/src/main/java/org/It_Academy/SQL_Homework/presentation/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL-Homework/src/main/java/org/It_Academy/SQL_Homework/query_executor/AccountQueryExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL-Homework/src/main/java/org/It_Academy/SQL_Homework/query_executor/AccountQueryExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL-Homework/src/main/java/org/It_Academy/SQL_Homework/query_executor/JDBCConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL-Homework/src/main/java/org/It_Academy/SQL_Homework/query_executor/JDBCConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL-Homework/src/main/java/org/It_Academy/SQL_Homework/query_executor/TransactionQueryExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL-Homework/src/main/java/org/It_Academy/SQL_Homework/query_executor/TransactionQueryExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL-Homework/src/main/java/org/It_Academy/SQL_Homework/query_executor/UserQueryExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL-Homework/src/main/java/org/It_Academy/SQL_Homework/query_executor/UserQueryExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL-Homework/src/main/java/org/It_Academy/SQL_Homework/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL-Homework/src/main/java/org/It_Academy/SQL_Homework/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL-Homework/src/main/java/org/It_Academy/SQL_Homework/service/TransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL-Homework/src/main/java/org/It_Academy/SQL_Homework/service/TransactionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL-Homework/src/main/java/org/It_Academy/SQL_Homework/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL-Homework/src/main/java/org/It_Academy/SQL_Homework/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SelenideHomework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SelenideHomework/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SelenideHomework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SelenideHomework/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SelenideHomework/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SelenideHomework/src/main/java/org/it_academy/selenide/framework/DriverCreatorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SelenideHomework/src/main/java/org/it_academy/selenide/framework/DriverCreatorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SelenideHomework/src/main/java/org/it_academy/selenide/pageobject/CatalogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SelenideHomework/src/main/java/org/it_academy/selenide/pageobject/CatalogPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SelenideHomework/src/test/java/org/it_academy/selenide/CatalogPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SelenideHomework/src/test/java/org/it_academy/selenide/CatalogPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/it_academy/selenium/framework/CapabilityFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/it_academy/selenium/framework/CapabilityFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/it_academy/selenium/framework/PropertiesReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/it_academy/selenium/framework/PropertiesReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/it_academy/selenium/framework/RemoteWebDriverDiscovery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/it_academy/selenium/framework/RemoteWebDriverDiscovery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/it_academy/selenium/pageobject/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/it_academy/selenium/pageobject/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/it_academy/selenium/rest_api/model/ProductModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/it_academy/selenium/rest_api/model/ProductModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/it_academy/selenium/listeners/AllureListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/it_academy/selenium/listeners/AllureListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/it_academy/selenium/onliner/local/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/it_academy/selenium/ui/onliner/local/OnlinerHomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/it_academy/selenium/onliner/remote/RemoteSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/it_academy/selenium/ui/onliner/remote/RemoteOnlinerHomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/it_academy/selenium/sushivesla/SushiVeslaAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/it_academy/selenium/api/sushivesla/SushiVeslaAPITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/selenium-parallel-test-suit-local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/selenium-parallel-test-suit-local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/selenium-parallel-test-suit-remote.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/selenium-parallel-test-suit-remote.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/it_academy/selenium/framework/WebDriverDiscovery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/it_academy/selenium/framework/WebDriverDiscovery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculator/Test Results - Tests_-_All_in_calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/../calculator/Test Results - Tests_-_All_in_calculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculator/src/main/java/com/it_academy/calculator/CalculatorMainForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/../calculator/src/main/java/com/it_academy/calculator/forms/CalculatorMainForm.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculator/src/main/java/com/it_academy/calculator/CalculatorMainForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../calculator/src/main/java/com/it_academy/calculator/forms/CalculatorMainForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculator/src/main/java/com/it_academy/calculator/CalculatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../calculator/src/main/java/com/it_academy/calculator/service/CalculatorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculator/src/main/java/com/it_academy/calculator/DivideOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../calculator/src/main/java/com/it_academy/calculator/operation/DivideOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculator/src/main/java/com/it_academy/calculator/DivisionByZeroException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../calculator/src/main/java/com/it_academy/calculator/exceptions/DivisionByZeroException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculator/src/main/java/com/it_academy/calculator/ICalculatorOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../calculator/src/main/java/com/it_academy/calculator/interfaces/ICalculatorOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculator/src/main/java/com/it_academy/calculator/MultiplyOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../calculator/src/main/java/com/it_academy/calculator/operation/MultiplyOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculator/src/main/java/com/it_academy/calculator/SubtractOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../calculator/src/main/java/com/it_academy/calculator/operation/SubtractOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculator/src/main/java/com/it_academy/calculator/SumOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../calculator/src/main/java/com/it_academy/calculator/operation/SumOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculator/src/test/java/com/it_academy/calculator/CalculatorServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../calculator/src/test/java/com/it_academy/calculator/CalculatorServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculator/src/test/java/com/it_academy/calculator/DivideOperationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../calculator/src/test/java/com/it_academy/calculator/DivideOperationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculator/src/test/java/com/it_academy/calculator/MultiplyOperationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../calculator/src/test/java/com/it_academy/calculator/MultiplyOperationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculator/src/test/java/com/it_academy/calculator/SubtractOperationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../calculator/src/test/java/com/it_academy/calculator/SubtractOperationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../calculator/src/test/java/com/it_academy/calculator/SumOperationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../calculator/src/test/java/com/it_academy/calculator/SumOperationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,7 +324,9 @@
       <workItem from="1669380936303" duration="4291000" />
       <workItem from="1669649872234" duration="601000" />
       <workItem from="1669908979288" duration="6284000" />
-      <workItem from="1670086689746" duration="2293000" />
+      <workItem from="1670086689746" duration="2484000" />
+      <workItem from="1670089330925" duration="2386000" />
+      <workItem from="1670156667181" duration="3944000" />
     </task>
     <servers />
   </component>

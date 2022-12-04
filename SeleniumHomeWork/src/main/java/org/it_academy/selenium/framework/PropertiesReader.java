@@ -6,7 +6,6 @@ import java.util.Properties;
 
 public class PropertiesReader {
     private static final String ENDPOINTS_FILE = "/endpoints.properties";
-
     private static final String SELENIUM_GRID_FILE = "/seleniumGrid.properties";
     private static final Properties ENDPOINTS_PROPERTIES = new Properties();
     private static final Properties SELENIUM_GRID_PROPERTIES = new Properties();

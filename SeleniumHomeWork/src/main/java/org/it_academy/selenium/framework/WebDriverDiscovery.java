@@ -4,20 +4,11 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.opera.OperaDriver;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.concurrent.TimeUnit;
-
 public class WebDriverDiscovery {
     private static final Logger logger = LoggerFactory.getLogger(WebDriverDiscovery.class);
-
-    private static ThreadLocal<RemoteWebDriver> remoteWebDriver =
-            new ThreadLocal();
-
     private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
     public static void setDriver(String name) {
