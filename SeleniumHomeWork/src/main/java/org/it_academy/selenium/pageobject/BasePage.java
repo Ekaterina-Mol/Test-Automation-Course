@@ -2,6 +2,7 @@ package org.it_academy.selenium.pageobject;
 
 import org.it_academy.selenium.framework.WebDriverDiscovery;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Wait;
@@ -16,7 +17,8 @@ public abstract class BasePage {
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
-        this.driver.manage().window().fullscreen();
+        Dimension dimension = new Dimension(1920, 1080);
+        this.driver.manage().window().setSize(dimension);
     }
 
     public WebElement waitForElementVisible(By by) {
